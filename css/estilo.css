@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color: #379eee;
+}
+
+div#interface {
+    position: relative;
+    background-color: #b6b3c1;
+    width: 900px;
+    margin: -23px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+    padding: 10px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+
+header#cabecalho h1, h2 {
+    font-family: Courier New, sans-serif;
+    color: #094b94;
+    text-align: center;
+    margin: auto;
+}
+
+header#cabecalho h1 {
+    margin-top: 30px;
+    font-size: 40pt;
+}
+
+header#cabecalho h2 {
+    font-size: 13pt;
+    margin-bottom: 100px
+}
+
+p {
+    font-size: 14pt;
+}
+
+article#artigo-principal h1 {
+    font-size: 23pt;
+    margin: 10px 1px 10px 1px;
+}
+
+article#artigo-principal img {
+    margin-left: 5px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
